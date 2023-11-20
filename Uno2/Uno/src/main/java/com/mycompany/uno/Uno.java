@@ -10,7 +10,7 @@ package com.mycompany.uno;
  */
 public class Uno {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    public static void main(String[] args) throws Exception {
+        new Menu().setVisible(true);
     }
 }

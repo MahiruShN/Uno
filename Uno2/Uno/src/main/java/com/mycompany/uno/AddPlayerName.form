@@ -43,33 +43,32 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="137" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="pidTextBox" min="-2" pref="270" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="103" alignment="0" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Component id="doneButton" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="pidTextBox" alignment="0" min="-2" pref="270" max="-2" attributes="0"/>
+                                      <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                                  <Component id="saveButton" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="saveButton" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="179" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="pidTwoLabel" min="-2" max="-2" attributes="0"/>
-                              <Component id="pidOneLabel" min="-2" max="-2" attributes="0"/>
-                              <Component id="pidThreeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="pidFourLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="pidOneLabel" alignment="0" pref="228" max="32767" attributes="0"/>
+                              <Component id="pidTwoLabel" alignment="0" max="32767" attributes="0"/>
+                              <Component id="pidThreeLabel" alignment="0" max="32767" attributes="0"/>
+                              <Component id="pidFourLabel" alignment="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="273" max="-2" attributes="0"/>
+                          <Component id="doneButton" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace pref="153" max="32767" attributes="0"/>
+                  <EmptySpace pref="102" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -95,9 +94,9 @@
                   <Component id="pidThreeLabel" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="pidFourLabel" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="88" max="32767" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="doneButton" min="-2" pref="42" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <EmptySpace pref="15" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -138,12 +137,32 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="pidOneLabel">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[10, 20]"/>
+            </Property>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="pidTwoLabel">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[10, 20]"/>
+            </Property>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="pidThreeLabel">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[10, 20]"/>
+            </Property>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="pidFourLabel">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[10, 20]"/>
+            </Property>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
